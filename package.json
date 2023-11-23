@@ -1,7 +1,7 @@
 {
   "name": "api-solid-node",
   "version": "1.0.0",
-  "description": "## Requisitos funcionais",
+  "description": "Api Rest de uma aplicação de check-ins para academias.",
   "main": "index.js",
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
@@ -12,12 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.9.4",
-    "tsup": "^8.0.1",
-    "tsx": "^4.4.0",
-    "typescript": "^5.3.2"
+    "@types/node": "20.9.4",
+    "tsup": "8.0.1",
+    "tsx": "4.4.0",
+    "typescript": "5.3.2"
   },
   "dependencies": {
-    "fastify": "^4.24.3"
+    "dotenv": "16.3.1",
+    "fastify": "4.24.3",
+    "zod": "3.22.4"
   }
 }
