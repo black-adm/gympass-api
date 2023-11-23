@@ -7,3 +7,5 @@ build
 
 .eslintrc.json
 .eslintignore
+
+prisma/migrations

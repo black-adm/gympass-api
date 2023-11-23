@@ -1,5 +1,13 @@
 ### Gympass Styles App
 
+## Setup do projeto
+
+- Após clonar o projeto, digite na raiz o comando `npm install` para baixar as dependências da aplicação. 
+
+- Para rodar o banco de dados, digite `docker compose up -d` para iniciar o container do postgresql.
+
+- Após os passos acima, gere as **migrations** do banco com o comando do prisma `npx prisma migrate dev`.
+
 ## Requisitos funcionais
 
 - [  ] Deve ser possível se cadastrar.
