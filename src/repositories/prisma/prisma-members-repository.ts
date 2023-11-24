@@ -1,6 +1,6 @@
 import { prisma } from '@/lib/prisma'
-import { MembersRepository } from '@/use-cases/members-repository'
 import { Prisma } from '@prisma/client'
+import { MembersRepository } from '../members-repository'
 
 export class PrismaMembersRepository implements MembersRepository {
   async create(data: Prisma.MemberCreateInput) {
@@ -8,6 +8,13 @@ export class PrismaMembersRepository implements MembersRepository {
       data,
     })
 
+    return member
+  }
+
+  async findById(id: string) {
+    const member = await prisma.member.findUnique({
+      where: { id },
+    })
     return member
   }
 
