@@ -29,7 +29,7 @@ describe('Get Member Profile Use Case', () => {
   })
 
   it('should not be able to get member profile with wrong id', async () => {
-    expect(() =>
+    await expect(() =>
       sut.execute({
         memberId: 'not-found-id',
       }),
