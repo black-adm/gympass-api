@@ -9,3 +9,5 @@ build
 .eslintignore
 
 prisma/migrations
+
+coverage
