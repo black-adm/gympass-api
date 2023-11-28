@@ -30,7 +30,7 @@
 
 - [  ] Deve ser possível o usuário buscar academias próximas.
 
-- [  ] Deve ser possível o usuário buscar academias pelo nome.
+- [ x ] Deve ser possível o usuário buscar academias pelo nome.
 
 - [ x ] Deve ser possível o usuário realizar check-in em uma academia.
 
