@@ -24,9 +24,9 @@
 
 - [ x ] Deve ser possível obter o perfil de um usuário logado.
 
-- [  ] Deve ser possível obter o número de check-ins realizados pelo usuário logado.
+- [ x ] Deve ser possível obter o número de check-ins realizados pelo usuário logado.
 
-- [  ] Deve ser possível o usuário obter seu histórico de check-ins.
+- [ x ] Deve ser possível o usuário obter seu histórico de check-ins.
 
 - [  ] Deve ser possível o usuário buscar academias próximas.
 
@@ -58,6 +58,6 @@
 
 - [ x ] Os dados da aplicação precisam estar persistidos em um banco POSTGRESQL.
 
-- [  ] Todas listas de dados precisam estar páginas com 20 itens por página.
+- [ x ] Todas listas de dados precisam estar páginas com 20 itens por página.
 
 - [  ] O usuário deve ser identificado por um token JWT ( Json Web Token ).
