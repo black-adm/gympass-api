@@ -53,7 +53,7 @@ describe('Check-in Use Case', () => {
       memberLongitude: -46.432256,
     })
 
-    vi.setSystemTime(new Date(2023, 0, 21, 8, 0, 0))
+    vi.setSystemTime(new Date(2023, 0, 20, 8, 0, 0))
 
     await expect(() =>
       sut.execute({

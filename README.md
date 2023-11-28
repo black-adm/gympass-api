@@ -36,7 +36,7 @@
 
 - [  ] Deve ser possível validar o check-in de um usuário.
 
-- [  ] Deve ser possível cadastrar uma academia.
+- [ x ] Deve ser possível cadastrar uma academia.
 
 ## Regras de negócio
 
